@@ -2,7 +2,7 @@
 
 $command = array();
 // Go to site folder.
-$command[] = 'cd' . $$_SERVER['DOCUMENT_ROOT'] . '/' . conf_path() . ';';
+$command[] = 'cd' . $_SERVER['DOCUMENT_ROOT'] . '/' . conf_path() . ';';
 // Specific drush command.
 $command[] = 'drush cc all';
 // Run in background mode.
